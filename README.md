@@ -64,10 +64,73 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Finova Capital is a non-banking financial company (NBFC) licensed by the Reserve Bank of India, founded in 2015 by Mohit Sahney and Sunita Sahney and headquartered in Jaipur, Rajasthan. It provides secured lending to MSMEs and self-employed customers across India — MSME business loans, home loans, working capital and machinery loans, and personal loans — operating across 17 states through 450+ branches.
+Finova Capital is a non-banking financial company (NBFC) licensed by the Reserve Bank of India, founded in 2015 by Mohit Sahney and Sunita Sahney and headquartered in Jaipur, Rajasthan. It provides secured lending to micro, small and medium enterprises (MSMEs) and self-employed customers across India, including MSME business loans, home loans, working capital and machinery loans, and personal loans, all secured against immovable property. Operating across 17 states through 450+ branches, Finova Capital is backed by investors including Peak XV Partners, Norwest Venture Partners, Faering Capital, Maj Invest, Sofina Ventures, Avataar Ventures and Madison India Capital. The company holds a Certificate of Registration issued by the RBI under Section 45-IA of the Reserve Bank of India Act, 1934. This is a financial-services provider with a public marketing and investor-relations website; it does not currently expose a public developer API surface.
 
-Backed by: norwest-venture-partners (also Peak XV Partners, Faering Capital, Maj Invest, Sofina Ventures, Avataar Ventures, Madison India Capital) — https://finova.in
+**Areas:** Company · Financial Services · NBFC · Lending · MSME · Housing Finance · India · Fintech
 
-## Enrichment note
+## Finova Capital on APIs.io
 
-Finova Capital is a financial-services provider with a public marketing/investor-relations website only. It exposes **no public developer API surface**: probes of `/.well-known/*`, `/llms.txt`, `/developers`, `/docs`, and `/api` all redirect to a 404 page. No API artifacts (OpenAPI, AsyncAPI, MCP, SDKs, well-known, etc.) apply. This pass updated company identity (description, sector, tags, image) and wired the real website link-properties (About, Blog, Support, Privacy, Terms).
+Everything profiled for Finova Capital is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/finova/](https://apis.io/providers/finova/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://finova.in)
+- [Support](https://finova.in/contact-us)
+- [Blog](https://finova.in/blog)
+- [Terms of service](https://finova.in/terms-and-condition)
+- [Privacy policy](https://finova.in/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 9.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 7.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/finova/](https://apis.io/providers/finova/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Finova Capital: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/finova/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
